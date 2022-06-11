@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326713409948",
+    "project_id": "fookfood-545e2",
+    "storage_bucket": "fookfood-545e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326713409948:android:1f3c41dd2cce7765714859",
+        "android_client_info": {
+          "package_name": "com.example.fookfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326713409948-2osipjte4vfp37j86nmkjiv4heac65fo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLodiOzxZqWvMS4pKgApdmqyDHBvWBDhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326713409948-2osipjte4vfp37j86nmkjiv4heac65fo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
