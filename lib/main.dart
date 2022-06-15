@@ -31,11 +31,13 @@ class _FoodAppStateState extends State<FoodAppState> {
 
   @override
   void initState() {
-    // TODO: implement initState
+
     super.initState();
 
+  }
 
-
+  get(){
+    NavigationService.instance!.navigateTo(RouteName.initialRoute);
   }
 
   @override
@@ -46,7 +48,7 @@ class _FoodAppStateState extends State<FoodAppState> {
         debugShowCheckedModeBanner: false,
       navigatorKey:  NavigationService.instance.navigationKey,
       onGenerateRoute: RouteGenerator.generateRoute,
-      home: const SplashScreen()
+      home:  SplashScreen(),
 
     );
   }
